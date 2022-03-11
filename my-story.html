@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My story - Anvesh Padamata</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+		<link rel="preload" href="./scene.json" as="fetch">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body class="story-body">
+		
+		<section class="nav-bar sticky-nav">
+			<div class="logo">Anvesh Padamata</div>
+			<ul>
+				<li  class="nav-item">
+					<a class="nav-link" href="./index.html">Home</a>
+				</li>
+				<li  class="nav-item active">
+					<a class="nav-link" href="./my_story.html">My Story</a>
+				</li>
+				<li  class="nav-item">
+					<a class="nav-link" href="./index.html#projects">Projects</a>
+				</li>
+				<li  class="nav-item">
+					<a class="nav-link" href="./index.html#contact-me">Contact</a>
+				</li>
+			</ul>
+		</section>
+		<section class="room-section">
+			<div id="warning-text">
+				<i class="uil uil-exclamation-triangle"></i>
+				Warning: Zooming in too much may cause the browser to slow down or crash
+				<div class="warning-update">
+				updated 02-mar-2022: added zoom-in and zoom-out limitations
+				</div>	
+			</div>	
+			<div id='myroom-container'>
+				
+				<canvas id="canvas3d"></canvas>		
+			</div>
+			<div id="myroom-image-mobile">
+				<img src="images/anveshs-room.jpg" alt="">
+			</div>
+			<div id="myroom-link">
+				<a href="./anveshs-room.html">👉 Click here</a> to view my room in 3d space.
+			</div>
+			<div class="controls-div">
+				<img src="images/wireless-mouse.png" alt="">
+				<p>left-click to rotate, right-click to pan and scroll to zoom</p>
+			</div>
+			<div class="loader-div" id="loader">
+				
+				<div class="loading"></div>
+			</div>
+		</section>
+		<section class="story-content-section">
+			<div class="story-content-div">
+				<div class="svg-div-right">
+					<img loading="lazy" src="images/animated-svgs/owl-drawing_animated.svg"alt="">
+				</div>
+				<p class="mystory-para">Hello, I am Anvesh &#128075</p>
+				<h2  class="mystory-heading">A night owl and Nyctophile. </h2>
+				<p id="word-def"><b>Nyctophile -</b> (n.)Love of darkness or night; finding relaxation and comfort in the darkness.</p>
+				<p class="mystory-para">
+					I spend most of my days in my bedroom surfing the internet, playing video games, making art, learning how to code and playing the guitar.
+				</p>
+				<p class="mystory-para">
+					<span>
+						Explore my bedroom using the mouse to drag and rotate in 3d space.
+					</span>
+					While the room looks untidy, it is actually very magical when watching Harry Potter movies under those neon and warm lights.
+				</p>
+			</div>
+
+			<div class="story-content-div">
+				
+				
+				<h2  class="mystory-heading">I'm the one who can't seem to choose between engineering and art.</h2>
+				<p class="mystory-para">
+					I completed my bachelor's in Mechanical Engineering. I've recently expanded my interests as a side project to check out several emerging technology fields like computer science and web development. 
+					I've seen some great opportunities out there, and I want to pursue my goal of obtaining new skills while learning more about the technology that I'm working with.
+				</p>
+				<p class="mystory-para">
+					I also have skills in digital artistry, such as portraiture using Clip Studio Paint and Photoshop. Further, I finished a few digital portraitures of my beautiful friends. 
+					My interest in digital portrait painting started a year ago. But, it ended earlier than I expected because of the fear of not measuring up to the other's expectations.
+				</p>
+				
+			</div>
+
+			<div class="story-content-div">
+				
+				<h2  class="mystory-heading">I know mechanical engineers who have switched over to computer science.</h2>
+				<p class="mystory-para">
+					Mechanical engineering is a difficult degree to get into and the one with the least hiring opportunities.
+					 Luckily, computer science is one of the fastest-growing degrees and has a lot of available jobs that can help provide a source of income in the future.
+				</p>
+				<p class="mystory-para">
+					I have seen people around me get stuck in long-term career paths, working long hours for low-paid jobs.
+					 As a mechanical engineer, I acquired a wide range of technical and soft skills, including problem-solving, communication skills,
+					  and the ability to produce computer-aided drawings and designs. However, due to some changes in recent years, it may not be as lucrative for me.
+				</p>
+				
+			</div>
+
+			<div class="story-content-div">
+				
+				<h2  class="mystory-heading">Awe-Inspiring? Creative? Productive? Effervescent?</h2>
+				<p class="mystory-para">
+					I had no clear idea of what I wanted to do in life. In addition, my bachelor's grades are too poor to continue study in computer science at a foreign university.
+				</p>
+				<p class="mystory-para">
+					I'd been curious about programming for some time, and the CS50: Introduction to Computer Science, an entry-level course taught by David J. Malan had been on my radar for a while, and it was immensely helpful to me.
+					 I am currently seeking employment and intend to take a web development course.
+				</p>
+				<p class="mystory-para">
+					I regularly update my portfolio, so it's a living document.
+				</p>
+				<div class="svg-div-right" id="globe-svg">
+					<img loading="lazy" src="images/animated-svgs/globe-drawing_animated.svg"alt="">
+				</div>
+			</div>
+		</section>
+		<section class="footer-section">
+			<div class="footer-container">
+				<span></span>
+			</div>
+	
+		</section>	
+		<script>
+			function loading_anim() {
+				document.querySelector("#loader").style.display = "none";
+			}
+			setTimeout(loading_anim, 7000);
+		</script>
+		<script type="module">
+			import { Application } from './runtime.js';
+			const app = new Application();
+			var jmediaquery = window.matchMedia( "(min-width: 1300px)" )
+			if (jmediaquery.matches) {
+				app.load('./scene.json');
+			}
+		</script>
+	</body>
+</html>

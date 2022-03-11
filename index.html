@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Anvesh Padamata</title>
+    <link rel="stylesheet" href="main.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+
+    <section class="nav-bar">
+        <div class="logo">Anvesh Padamata</div>
+        <ul>
+            <li  class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="./my-story.html">My Story</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact</a>
+            </li>
+        </ul>
+    </section>
+    <div class="hero-section">
+        
+        <div class="title">
+            <h1>MECHANICAL ENGINEER +</h1>
+            <h1>UX/UI DEVELOPER</h1>
+            <p class="title-para">I'm a mechanical engineer, but I also have a strong interest in web development. This is why I’m currently learning as much as I can about this field of technology.</p>
+            
+        </div>
+        <div id="myCanvas">
+            <img src="images/car-svg_animated.svg" alt="">
+        </div>
+    </div>
+    
+    <div class="about-section">
+        <div class="sticky">
+            <img id="web-img" src="images/web development.png" alt="">
+        </div>
+        <div id="particles-js">
+            <script src="scripts/particles.js-master/particles.js"></script>
+            <script src="scripts/particles.js-master/app.js"></script>
+        </div>
+        <div class="content-about">
+            <div class="about-title"> I can one day build and create my web applications!</div>
+            <div class="para">It was not clear to me what I wanted to do with my life as I spent most of my days in my bedroom playing video games, watching cartoons, making art and learning to code.
+                I'd been curious about programming for some time, and the CS50: Introduction to Computer Science, an entry-level course taught by David J. Malan had been on my radar for a while, and it was immensely helpful to me. I am currently seeking employment and intend to take a web development course.
+            </div>
+            <div class="readmore-btn">
+                <button onclick="document.location='my-story.html'" class="button" style="vertical-align:middle"><span>Read more </span></button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="projects-section">
+        
+        <div class="projects-container" id="projects">
+            <div class="projects-title">Works</div>
+            <div class="cards-container">
+                
+                <div class="cards ">
+                    <div class="cards-title">
+                        Restaurant Website Design
+                    </div>
+                    <div class="cards-img">
+                        <video id="capsule" width="100%" autoplay muted loop>
+                            <source  src="images/website-mockup.mp4" type="video/mp4">
+                                
+                        </video>
+                    </div>
+                    <div class="para cards-desc">
+                        An interactive website for a restaurant was created in webflow, integrating parallax, mouse follow, and scroll trigger animations.
+                    </div>
+                       
+                </div>
+                <div class="cards ">
+                    <div class="cards-title">
+                        Color Value Art
+                    </div>
+                    <img id="pointer" src="images/pointer.png" alt="">
+                    <div class="cards-img painting-mockup">
+                            
+                        <img src="images/mockup.jpg" alt="">
+                    </div>
+                    <div class="para cards-desc">
+                        If viewed in grayscale, these shades of gray describe the amount of dark or light elements in any color and describe the lightest and darkest shades of that color.
+                        <br>
+                        Greyscale version of the image can be seen by hovering over it
+                    </div>
+                       
+                </div>
+            </div>    
+        </div>
+    </div>
+    <div class="featured-project-section">
+        <div class="circle">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#E5D5FA" d="M67.5,-16.8C76.5,5.8,65.3,40.1,44.2,53.6C23.2,67.2,-7.6,60,-28.3,43.8C-48.9,27.7,-59.4,2.5,-53,-16.5C-46.6,-35.4,-23.3,-48.2,3,-49.1C29.2,-50.1,58.5,-39.3,67.5,-16.8Z" transform="translate(60 50)" />
+            </svg>
+        </div>
+        <div class="fp-container">
+            <div class="fp-left">
+                <div class="fp-heading">Featured Project</div>
+                <a href="#" class="fp-title">Tars - Smart Planter</a>
+                <div class="fp-subtitle">Did you know that there are certain plants that need special care to survive and grow?</div>
+                <div class="tars-mobile-mockup">
+                    <img src="images/tars-mobile-mockup.png" alt="">
+                </div>
+                <div class="para tars-para">Tars is a product of the Internet of Things. With the help of some sensors like soil moisture, temperature and sunlight detection sensors, it keeps you updated about the current conditions of your beloved plant.The web application helps you monitor the soil moisture, temperature & humidity of the surroundings, sunlight and weather conditions to help you take better care of your plant. When there is something wrong with the plant or its environment, it alerts you to the issue.</div>
+                
+                <button class="fp-button">
+                    <span>Learn more</span>
+                    <svg width="15px" height="10px" viewBox="0 0 13 10">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+            </div>
+             
+            <div class="fp-right">
+                <div class="fp-image">
+                    <div class="glass">
+                        <div class="tars-plant">
+                            <img src="images/tars-plant.png" alt="">
+                        </div>
+                        <div class="tars-desc">Tars monitor your plant is getting enough sunlight, water or being <span>over-watered.</span></div>
+                    </div>
+                    <img class="tars-img" src="images/tars-mockup.png" alt="">
+                </div>    
+            </div>
+        </div>
+    </div>
+    
+    <section class="qualification-section">
+        <div class="hobbies-container">
+            <div class="hobbies-tagline">I do alot of interesting things in my spare time.</div>
+            <div class="hobbies-grid">
+                <div class="hobbies-div hb-div1">
+                    
+                    <div class="hobbies-icon">
+                        <img src="images/hobbies/electric-guitar.png" alt="">
+                            
+                    </div>
+                    
+                    
+                    <div class="hobbies-title">Playing Guitar</div>
+                    <div class="hobbies-para">Just strumming a few chords. Learning how to pluck strings without having to look at fingers.</div>
+                       
+                </div>
+                <div class="hobbies-div hb-div2">
+                    
+                    <div class="hobbies-icon">
+                        <img src="images/hobbies/art.png" alt="">
+                    </div>
+                    
+                    
+                    <div class="hobbies-title">Painting</div>
+                    <div class="hobbies-para">Vexel art and Digital Portrait Paintings</div>
+                          
+                </div>
+                <div class="hobbies-div hb-div3">
+                    
+                    <div class="hobbies-icon">
+                        <img src="images/hobbies/cooking-pan.png" alt="">
+                    </div>
+                    
+                    
+                    <div class="hobbies-title">Cooking</div>
+                    <div class="hobbies-para">I like experimenting in the kitchen, trying out new recipes.</div>
+                          
+                </div>
+                <div class="hobbies-div hb-div4">
+                    
+                    <div class="hobbies-icon">
+                        <img src="images/hobbies/tv.png" alt="">
+                    </div>
+                    
+                     
+                    <div class="hobbies-title">Binge-watching</div>
+                    <div class="hobbies-para">TV Series and I love Harry Potter films.</div>
+                         
+                </div>
+                <div class="hobbies-div hb-div5">
+                    
+                    <div class="hobbies-icon">
+                        <img src="images/hobbies/gaming-controller.png" alt="">
+                    </div>
+                    
+                    
+                    <div class="hobbies-title">Playing Games</div>
+                    <div class="hobbies-para">I play video games for fun and to stay connected with my friends.</div>
+                          
+                </div>
+                <div class="hobbies-div hb-div6">
+                    
+                    <div class="hobbies-icon">
+                        <img src="images/hobbies/music-player.png" alt="">
+                    </div>
+                    
+                    
+                    <div class="hobbies-title">Listening to Music</div>
+                    <div class="hobbies-para">Not just a hobby it's a Lifestyle. I listen to my favourite music before going to bed every day.</div>
+                         
+                </div>
+
+            </div>
+        </div>
+
+        <div class="qual-container">
+            <div class="qual-tabs">
+                <div class="qual-button qual-active">
+                    <i class="uil uil-graduation-cap qual-icon"></i>
+                    Education
+                </div>
+                <div class="qual-button">
+                    <i class="uil uil-briefcase-alt qual-icon"></i>
+                    Work
+                </div>
+            </div>
+
+            <div class="qualifications">
+                <div class="qual-content">
+                    <div class="qual-data data-left">
+                        <div>
+                            <h3 class="qual-title">Class X</h3>
+                            <span class="qual-subtitle">Siva Sivani's SPS High School</span>
+                            <div class="qual-calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2014 - 2015
+                            </div>
+                        </div>
+                    
+                        <div>
+                            <span class="qual-rounder"></span>
+                            <span class="qual-line"></span>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="qual-data data-right">
+                        <div></div>
+
+                        <div>
+                            <span class="qual-rounder"></span>
+                            <span class="qual-line"></span>
+                        </div>
+
+                        <div>
+                            <h3 class="qual-title">Intermediate</h3>
+                            <span class="plus_one">Loyola Academy Junior College +1</span>
+                            <span class="qual-subtitle">Narayana Junior College +2</span>
+                            <div class="qual-calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2015 - 2017
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="qual-data data-left">
+                    
+
+                        
+                        <div>
+                            <h3 class="qual-title">Bachelor of Technology</h3>
+                            <span class="qual-subtitle">SRK Institute of Technology</span>
+                            <div class="qual-calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                2017 - 2021
+                            </div>
+                        </div>
+
+                        <div>
+                            <span class="qual-rounder"></span>
+                            
+                        </div>
+
+                    </div>
+                     
+                </div> 
+            </div>
+            <div class="cv-button">
+                <button>Download CV</button>
+                
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact-me">
+        <div class="contact-container">
+            <div class="hire-me-div">
+                <div class="hire-me-tagline">
+                    Am I your next hire ?
+                </div>
+                <a id="mail-contact" href="mailto:anvesh.padamata@outlook.com">anvesh.padamata@outlook.com</a>
+            </div>
+            <div id="contact-line-div"><span class="contact-line"></span></div>
+            <div class="social-media-container">
+                <div class="sm-div facebook-div">
+                    <div class="social-icons-div">
+                        <img src="images/social-media-icons/Facebook.png" alt="">
+                    </div>
+
+                    <a id="facebook-link" class="social-links" href="https://www.facebook.com/4nvesh" target="_blank">Facebook</a>
+                </div>
+                <div class="sm-div insta-div">
+                    <div class="social-icons-div">
+                        <img src="images/social-media-icons/Instagram.png" alt="">
+                    </div>
+
+                    <a id="insta-link" class="social-links" href="https://www.instagram.com/_anvessh_" target="_blank">Instagram</a>
+                </div>
+                <div class="sm-div linkedin-div">
+                    <div class="social-icons-div">
+                        <img src="images/social-media-icons/LinkedIn.png" alt="">
+                    </div>
+                    
+                    <a id="linkedin-link" class="social-links" href="https://in.linkedin.com/in/anvesh-padamata-639928183" target="_blank">LinkedIn</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="footer-section">
+        <div class="footer-container">
+            <span></span>
+        </div>
+
+    </section>
+
+
+</body>
+</html>
