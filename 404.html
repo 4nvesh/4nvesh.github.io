@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    section{
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    }
+    body{
+        background-color: whitesmoke;
+        font-family: 'Poppins';
+    }
+    a{
+        font-family: 'Poppins';
+        color: aliceblue;
+        background-color: #6700ee;
+        text-decoration: none;
+        width: 200px;
+        height: 120px;
+        padding: 1.125rem 2rem;
+        border-radius: 8px;
+    }
+    a:hover{
+        box-shadow:rgba(0, 0, 255, .2) 8px 8px 12px;
+    }
+    h1{
+        font-size: 2.5rem;
+        color: #373d3f;
+    }
+    h3{
+        font-size: 1.875rem;
+        color: #373d3f;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+    h2{
+        font-size: 3rem;
+        opacity: 30%;
+        color: #373d3f;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 0.938rem;
+    }
+    .content{
+        width: 90%;
+        text-align: center;
+    }
+    .error-image{
+        width: 100px;
+        margin-top: 1.125rem;
+    }
+    .error-image img{
+        width:90%;
+    }
+
+    @media only screen and (min-width:1024px){
+        .container{
+            flex-direction: row;
+            width: 80vw;
+        }
+        .error-image{
+            width: 300px;
+        }
+    }
+</style>
+<body>
+    <section>
+        <div class="container">
+            <div class="error-image">
+                <img src="images/dobby.png" alt="">
+            </div>    
+            <div class="content">
+                <h2>404</h2>
+                <h1>Oops!</h1>
+                <h3>The page you are looking for is not found</h3>
+                <a href="./index.html">Back to home</a>
+            </div>
+        </div>
+    </section>   
+</body>
+</html>
