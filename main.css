@@ -690,6 +690,9 @@ html{
     #myroom-link{
         font-size: 0.8rem;
     }
+    #myroom-link a{
+        color: #77dd77
+    }
     .story-content-section{
         margin: 0 0.938rem;
         color: aliceblue;
