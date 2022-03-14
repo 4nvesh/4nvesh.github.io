@@ -165,6 +165,10 @@ html{
         opacity: 80%;
         padding: 0.375rem 0.625rem;
     }
+    .nav-item:hover{
+        color: aliceblue;
+        opacity: 100%;
+    }
     .active{
         color: aliceblue;
         opacity: 100%;
