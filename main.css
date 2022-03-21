@@ -1289,7 +1289,7 @@ html{
         display: flex;
         justify-content: space-evenly;
     
-        width: 360px;
+        width: 420px;
         height: 240px;
         position: absolute;
         bottom: 3rem;
@@ -1304,14 +1304,14 @@ html{
     }
     .tars-plant{
         position: relative;
-        width: 130px;
+        width: 190px;
         left: 10px;
         top: 12px;
     }
     .tars-plant img{
         position: relative;
         width: 290px;
-        left: -135px;
+        left: -96px;
         bottom: 146px;
     
     }
