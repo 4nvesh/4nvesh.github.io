@@ -1310,9 +1310,9 @@ html{
     }
     .tars-plant img{
         position: relative;
-        width: 290px;
-        left: -96px;
-        bottom: 146px;
+        width: 380px;
+        left: -66px;
+        bottom: 356px;
     
     }
     .tars-desc{
@@ -1625,7 +1625,7 @@ html{
     }
     .fp-image{
         width: 60vw;
-        overflow: hidden;
+        
     }
     .tars-img{
         overflow: hidden;
@@ -1644,9 +1644,9 @@ html{
         top: 12px;
     }
     .tars-plant img{
-        width: 360px;
-        left: -136px;
-        bottom: 180px;
+        width: 460px;
+        left: -76px;
+        bottom: 434px;
     }
     .qualification-section{
         display: flex;
