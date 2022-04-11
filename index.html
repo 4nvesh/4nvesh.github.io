@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Anvesh Padamata</title>
+    <link rel = "icon" type = "image/png" href = "images/anvesh_padamata_logo_small.png">
     <link rel="stylesheet" href="main.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +20,28 @@
 
     gtag('config', 'G-P5GV2NTGF1');
     </script>
+    <script>
+        function preLoader()
+        {
+            document.getElementById("logoPreloaderSection").style.display = "none";
+        }
+    </script>
 </head>
-<body>
+<body onload="preLoader()">
+    <section id="logoPreloaderSection" class="logoPreloaderSection">
+        <div class="logoPreloaderContainer">
+            <div class="preloaderImage">
+                <img src="images/anvesh_padamata_logo.png" alt="">
+            </div>
+            <div class="preloaderText">
+                <svg class="logoPreloader"viewBox="0 0 800 300">
+                    <text x="50%" y="50%" text-anchor="middle">
+                        Anvesh Padamata
+                    </text>
+                </svg>
+            </div>
+        </div>
+    </section>
 
     <section class="nav-bar">
         <div class="logo">Anvesh Padamata</div>

@@ -46,7 +46,7 @@ html{
 }
  
 
- @-webkit-keyframes rotate {
+@-webkit-keyframes rotate {
     from {
         -webkit-transform: rotate(0deg);
     }
@@ -66,7 +66,7 @@ html{
  * animation wobble-ver-left
  * ----------------------------------------
  */
- @-webkit-keyframes wobble-ver-left {
+@-webkit-keyframes wobble-ver-left {
     0%,
     100% {
       -webkit-transform: translateY(0) rotate(0);
@@ -94,37 +94,63 @@ html{
       -webkit-transform: translateY(-6px) rotate(-1.2deg);
               transform: translateY(-6px) rotate(-1.2deg);
     }
-  }
-  @keyframes wobble-ver-left {
-    0%,
-    100% {
-      -webkit-transform: translateY(0) rotate(0);
-              transform: translateY(0) rotate(0);
-      -webkit-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-    }
-    15% {
-      -webkit-transform: translateY(-30px) rotate(-6deg);
-              transform: translateY(-30px) rotate(-6deg);
-    }
-    30% {
-      -webkit-transform: translateY(15px) rotate(6deg);
-              transform: translateY(15px) rotate(6deg);
-    }
-    45% {
-      -webkit-transform: translateY(-15px) rotate(-3.6deg);
-              transform: translateY(-15px) rotate(-3.6deg);
-    }
-    60% {
-      -webkit-transform: translateY(9px) rotate(2.4deg);
-              transform: translateY(9px) rotate(2.4deg);
-    }
-    75% {
-      -webkit-transform: translateY(-6px) rotate(-1.2deg);
-              transform: translateY(-6px) rotate(-1.2deg);
-    }
-  }
+}
 
+@keyframes wobble-ver-left {
+    0%,
+    100% {
+      -webkit-transform: translateY(0) rotate(0);
+              transform: translateY(0) rotate(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateY(-30px) rotate(-6deg);
+              transform: translateY(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateY(15px) rotate(6deg);
+              transform: translateY(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateY(-15px) rotate(-3.6deg);
+              transform: translateY(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateY(9px) rotate(2.4deg);
+              transform: translateY(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateY(-6px) rotate(-1.2deg);
+              transform: translateY(-6px) rotate(-1.2deg);
+    }
+}
+
+@keyframes stroke {
+	0%   {
+		fill: rgba(103, 0, 238,0); stroke: rgba(103, 0, 238,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 1;
+	}
+	70%  {fill: rgba(103, 0, 238,0); stroke: rgba(103, 0, 238,1); }
+	80%  {fill: rgba(103, 0, 238,0); stroke: rgba(103, 0, 238,1); stroke-width: 2; }
+	100% {
+		fill: rgba(103, 0, 238,1); stroke: rgba(103, 0, 238,0); 
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+@-webkit-keyframes stroke {
+	0%   {
+		fill: rgba(103, 0, 238,0); stroke: rgba(103, 0, 238,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 1;
+	}
+	70%  {fill: rgba(103, 0, 238,0); stroke: rgba(103, 0, 238,1); }
+	80%  {fill: rgba(103, 0, 238,0); stroke: rgba(103, 0, 238,1); stroke-width: 2; }
+	100% {
+		fill: rgba(103, 0, 238,1); stroke: rgba(103, 0, 238,0); 
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
 
     body{
         font-family: 'Poppins';
@@ -132,6 +158,43 @@ html{
         scroll-behavior: smooth;
         
     }
+    /*------------logo_preloader-----------------*/
+    .logoPreloaderSection{
+        background-color: #f5f5f5;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+    }
+    .logoPreloaderContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .preloaderImage{
+        width: 128px;
+    }
+    .preloaderImage img{
+        width: 100%;
+    }
+    .preloaderText{
+        width: 300px;
+    }
+    .logoPreloader {
+        font-family: 'Poppins';
+    }
+    .logoPreloader text {
+        animation: stroke 3s infinite alternate;
+        stroke-width: 1;
+        stroke: #6700ee;
+        font-size: 72px;
+    }
+    /*--------------------------------------------*/
+
     .nav-bar{
         background-color: #6700ee;
         display: flex;
