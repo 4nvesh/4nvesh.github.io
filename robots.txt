@@ -1,2 +1,3 @@
+Sitemap: https://anvesh-padamata.in/sitemap.xml
 User-agent: *
 Allow:
