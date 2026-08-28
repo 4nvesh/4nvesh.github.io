@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[6204,[],"ViewportBoundary"]
+3:I[6204,[],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[9341,[],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Anvesh Padamata — Product Designer & Mechanical Engineer"}],["$","meta","1",{"name":"description","content":"Portfolio of Anvesh Padamata: product design, mechanical engineering, UX/UI, IoT and creative technology."}],["$","meta","2",{"name":"author","content":"Anvesh Padamata"}],["$","meta","3",{"name":"keywords","content":"Anvesh Padamata,product designer,mechanical engineer,automotive design,UX UI,IoT"}],["$","link","4",{"rel":"shortcut icon","href":"/portfolio/logo.png"}],["$","link","5",{"rel":"icon","href":"/portfolio/logo.png"}],["$","link","6",{"rel":"apple-touch-icon","href":"/portfolio/logo.png"}],["$","$L5","7",{}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FuBifEb9S9ycdWz3lIuxL"}
