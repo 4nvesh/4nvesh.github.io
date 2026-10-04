@@ -1,0 +1,382 @@
+.appbutton {
+    position: relative;
+    padding: 13px 35px;
+    background: #6700ee;
+    font-size: 16px;
+    font-weight: 700;
+    color: whitesmoke;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #18181869, inset 2px 2px 10px #ffffffb0;
+    transition: all .3s ease-in-out;
+    margin: 12px;
+}
+
+.icon-1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0px;
+    height: auto;
+    transition: all .5s ease-in-out;
+    z-index: -1;
+}
+
+.icon-2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0px;
+    height: auto;
+    transition: all .5s ease-in-out;
+    z-index: -2;
+}
+
+.icon-3 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0px;
+    height: auto;
+    transition: all .5s ease-in-out;
+    z-index: -2;
+}
+
+.icon-4 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0px;
+    height: auto;
+    transition: all .5s ease-in-out;
+    z-index: -2;
+}
+
+.icon-5 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 0px;
+    height: auto;
+    transition: all .5s ease-in-out;
+    z-index: -2;
+}
+
+.appbutton:hover {
+    padding: 13px 25px;
+    border-radius: 8px 8px 24px 24px;
+}
+
+.appbutton:hover .icon-1 {
+    top: -250%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 50px;
+    height: auto;
+    animation: inIcon1 1s ease .45s forwards;
+}
+
+@keyframes inIcon1 {
+    0% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+
+    25% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(5deg);
+    }
+
+    50% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(1deg);
+    }
+
+    65% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(3deg);
+    }
+
+    100% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+}
+
+.appbutton:hover .icon-2 {
+    position: absolute;
+    top: -200%;
+    left: 90%;
+    transform: translate(-50%, 0);
+    width: 75px;
+    height: auto;
+    animation: inIcon2 1s ease .45s forwards;
+}
+
+@keyframes inIcon2 {
+    0% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+
+    35% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(10deg);
+    }
+
+    50% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(4deg);
+    }
+
+    80% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(5deg);
+    }
+
+    100% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+}
+
+.appbutton:hover .icon-3 {
+    position: absolute;
+    top: -130%;
+    left: 20%;
+    transform: translate(-50%, 0);
+    width: 60px;
+    height: auto;
+    animation: inIcon3 1s ease .45s forwards;
+}
+
+@keyframes inIcon3 {
+    0% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+
+    35% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(-2deg);
+    }
+
+    100% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+}
+
+.appbutton:hover .icon-4 {
+    position: absolute;
+    top: -300%;
+    left: 10%;
+    transform: translate(-50%, 0);
+    width: 85px;
+    height: auto;
+    animation: inIcon4 1s ease .45s forwards;
+}
+
+@keyframes inIcon4 {
+    0% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+
+    40% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(-3deg);
+    }
+
+    100% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+}
+
+.appbutton:hover .icon-5 {
+    position: absolute;
+    top: -350%;
+    left: 90%;
+    transform: translate(-50%, 0);
+    width: 85px;
+    height: auto;
+    animation: inIcon5 1s ease .45s forwards;
+}
+
+@keyframes inIcon5 {
+    0% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+
+    35% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(-3deg);
+    }
+
+    100% {
+        transform-origin: 0 100%;
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+}
+
+.fil-leaf-1 {
+    fill: #7B9B3A
+}
+
+.fil-leaf-2 {
+    fill: #556729;
+    fill-rule: nonzero
+}
+
+.fil-leaf-3 {
+    fill: #556729
+}
+
+.fil-leaf-4 {
+    fill: #3C4819
+}
+
+.fil-leaf-5 {
+    fill: #3C4819
+}
+
+
+.heroImage {
+    width: 100%;
+}
+
+.heroImage img {
+    width: 100%;
+}
+
+.productVision-section {
+    display: flex;
+    margin-top: 34px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productVisionImage {
+    width: 100%;
+    max-width: 425px;
+}
+
+.productVisionImage img {
+    width: 100%;
+}
+
+.tarspage-flexColumnDiv h3 {
+    color: #272727;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.productDevelopmentImages {
+    width: 280px;
+}
+
+.monitoringImages {
+    margin-top: 34px;
+    width: 280px;
+}
+
+.productDesignImage {
+    width: 280px;
+    margin-top: 18px;
+}
+
+#glowInDarkImage {
+    width: 100%;
+    margin-top: 18px;
+    max-width: 425px;
+}
+
+.currentProgress-section {
+    margin-top: 34px;
+}
+
+.cancelledIcon {
+    left: 12px;
+    width: 1px;
+    height: 1px;
+    position: relative
+}
+
+.cancelledIcon img {
+    position: absolute;
+    width: 72px;
+    z-index: -1;
+}
+
+@media only screen and (min-width:500px) {
+    .productVisionImage {
+        max-width: 540px;
+    }
+
+    .productDevelopmentImages {
+        width: 460px;
+    }
+
+    .monitoringImages {
+        width: 480px;
+    }
+
+    .productDesignImage {
+        width: 480px;
+    }
+
+    #glowInDarkImage {
+        max-width: 540px;
+    }
+
+    .cancelledIcon {
+        left: 22%;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .productVision-section {
+        display: flex;
+        margin-top: 34px;
+        flex-direction: row;
+        align-items: center;
+        margin: 54px 0 54px 0;
+        justify-content: space-around;
+    }
+
+    .productDevelopmentImages {
+        width: 640px;
+    }
+
+    .monitoringImages {
+        width: 660px;
+    }
+
+    .productDesignImage {
+        width: 660px;
+    }
+
+    #glowInDarkImage {
+        max-width: 660px;
+    }
+
+    .tarspage-flexColumnDiv h3 {
+        font-size: 18px;
+        margin-top: 32px;
+        margin-bottom: 26px;
+    }
+
+    .cancelledIcon {
+        top: 12px;
+        left: 30%;
+    }
+}
